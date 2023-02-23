@@ -1,0 +1,75 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>Basketball Feedback Form</title>
+<style>
+body{
+background-image: url('fback.jpeg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align: center;"><Strong>Basketball Tournament</h1>
+<p style="text-align: center;">Team1 vs Team2</Strong></p>
+<h3 style="text-align: center;">07 th February 2023, California</h3>
+<div class="row" style = "position:fixed; left:365px; top:140px;">
+<h2>Responder's Details:</h2>
+<div class="row" style = "position:fixed; left:395px; top:190px;">
+<p>Name: <input type="text" name="userName" required></p>
+<p>Age: &nbsp&nbsp&nbsp<input type="number" name="userAge" required></p>
+<p>Phone: <input type="tel" name="userPhone" required></p>
+<p>Email: <input type="email" name="userMail" required></p>
+<p>Work:&nbsp <input type="text" name="userWork" required></p>
+<p>Place: &nbsp<input type="text" name="userPlace" required></p>
+</div>
+</div>
+
+<div class="column" style = "position:fixed; left:710px; top:140px;">
+<h2>Answer these questions based on your experience</h2>
+<div class="column" style = "position:fixed; left:740px; top:190px;">
+<p><Strong>Q1. Rate the overall experience </Strong></p>
+<input type="radio" id="q1ex">
+<label for="q1ex">Excellent</label>
+<br>
+<input type="radio" id="q1ex">
+<label for="q1ex">Good</label>
+<br>
+<input type="radio" id="q1ex">
+<label for="q1ex">Satisfactory</label>
+<br>
+<input type="radio" id="q1ex">
+<label for="q1ex">Need to improve the features</label>
+
+<p><Strong>Q2. Would you like to attend, if another tournament is conducted</Strong></p>
+<input type="radio" id="q2ex">
+<label for="q2ex">Yes</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" id="q2ex">
+<label for="q2ex">No</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" id="q2ex">
+<label for="q2ex">Maybe</label>
+</div>
+</div>
+<div class = "row" style= "position:fixed; left:365; top:420">
+<p><Strong>How strong will you recommend others to watch basketball here</Strong></p>
+<p>Low&nbsp&nbsp&nbsp<input type="range" min="1" max="5" value="1">&nbsp&nbsp&nbspHigh</p>
+<br>
+<h2>Comments Section</h2>
+<textarea name="comments"></textarea>
+<br><br>
+<div class = "row" style="position:fixed; left:700; bottom:60">
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+<button type="button">Save</button>
+<br>
+<div class = "row" style="position:fixed; left:640; bottom:20">
+<p>Progress Bar&nbsp&nbsp&nbsp<progress value="0" max = "100"></progress></p>
+</div>
+</div>
+</div>
+</body>	
+</html>
